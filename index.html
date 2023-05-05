@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="bg-holder"></div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="wrapper header__wrapper">
+            <a href="#" class="logo-link header__logo-link">
+                <img src="./assets/img/logo.png" alt="logo" class="logo-link__logo">
+            </a>
+            <nav class="nav header__nav">
+                <a href="#" class="nav__link">О клубе</a>
+                <a href="#" class="nav__link">Залы</a>
+                <a href="#" class="nav__link">Игры</a>
+                <a href="#" class="nav__link">Цены</a>
+                <a href="#" class="nav__link">Контакты</a>
+            </nav>
+            <a href="#" class="header__btn">Забронировать</a>
+            <a href="#" class="header__tel-link">8 (925)880-15-12</a>
+        </div>
+    </header>
+    <main class="main">
+
+        <!-- PROMO -->
+        <section class="promo">
+            <div class="wrapper promo__wrapper">
+                <h1 class="promo__heading">Иследуй виртуальную реальность</h1>
+                <p class="promo__text">Виртуальная реальностью может быть веселой, но это также может быть очень
+                    страшным. Проведи свое время незабываемо в VR-клубе</p>
+                <div class="menu promo__menu">
+                    <a href="#" class="menu__pink-btn">Выбрать игру</a>
+                    <a href="#" class="menu__pink-btn menu__pink-btn--outline">Наши цены</a>
+                </div>
+                <div class="socials promo__socials">
+                    <a href="#" class="social__link">
+                        <span class="vk-icon">
+                            <svg width="30" height="18">
+                                <use xlink:href="./assets/icons/vk.svg#vk-icon"></use>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="#" class="social__link">
+                        <span class="facebook-icon">
+                            <svg width="15" height="26">
+                                <use xlink:href="./assets/icons/facebook.svg#facebook-icon"> </use>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="#" class="social__link">
+                        <span class="youtube-icon">
+                            <svg width="30" height="23">
+                                <use xlink:href="./assets/icons/youtube.svg#youtube-icon"></use>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about">
+            <div class="wrapper about__wrapper">
+                <h2 class="subheading about__heading">О нашем клубе</h2>
+                <div class="about__content">
+                    <img src="./assets/img/about-bg.png" alt="about-bg" class="about__img">
+                    <div class="about__text-content">
+                        <span class="about__text-img">
+                            <svg width="300" height="100">
+                                <use xlink:href="./assets/img/about-text.svg#about-text"></use>
+                            </svg>
+                        </span>
+                        <p class="about__text">Наш клуб виртуальной реальности начал свою деятельность не так давно. Тем
+                            не менее, мы уверены - вскоре о нас узнают
+                            далеко за пределами компьютерных залов.</p>
+                        <p class="about__text">Мы делаем виртуальные миры доступными каждому, приходите и испытайте эти
+                            ощущения сами!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARDS -->
+        <section class="cards">
+            <div class="wrapper wrapper__cards">
+                <h2 class="cards__heading">Игровые залы</h2>
+                <div class="cards-box cards__cards-box">
+                    <div class="card cards-box__card">
+                        <img src="./assets/img/card-img-1.png" alt="card-img-1" class="card__img">
+                        <div class="card-content card__card-content">
+                            <h3 class="card__heading">Розовый зал</h3>
+                            <p class="card__text">Аренда розового зала : 9 VR зон - Standart VR, PS 4 Pro, KAT VR до 10
+                                человек</p>
+                            <a href="#" class="card__btn">Забронировать</a>
+                        </div>
+                    </div>
+                    <div class="card cards-box__card">
+                        <img src="./assets/img/card-img-2.png" alt="card-img-1" class="card__img">
+                        <div class="card-content card__card-content">
+                            <h3 class="card__heading">Синий зал</h3>
+                            <p class="card__text">В Синем зале расположены : 4 VR зон - Premiun VR (Valve index) до 4
+                                человек</p>
+                            <a href="#" class="card__btn">Забронировать</a>
+                        </div>
+                    </div>
+                    <div class="card cards-box__card">
+                        <img src="./assets/img/card-img-3.png" alt="card-img-1" class="card__img">
+                        <div class="card-content card__card-content">
+                            <h3 class="card__heading">РVR арена</h3>
+                            <p class="card__text">Совместные игры на площадке
+                                Современный аналог лазертага до 6 человек</p>
+                            <a href="#" class="card__btn">Забронировать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PLAY -->
+        <section class="play">
+            <div class="wrapper wrapper__play">
+                <h2 class="subheading play__subheading">Во что поиграть</h2>
+                <div class="play__content">
+                    <div class="play__swiper-menu">
+                        <button class="play__swiper-menu-btn">Популярные</button>
+                        <button class="play__swiper-menu-btn">Шутеры</button>
+                        <button class="play__swiper-menu-btn">Групповые</button>
+                        <button class="play__swiper-menu-btn">Хорроры</button>
+                        <button class="play__swiper-menu-btn">Творческие</button>
+                        <button class="play__swiper-menu-btn">Детские</button>
+                    </div>
+                    <div class="swiper play__swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./assets/img/swiper-img.jpg" alt="swiper-img" class="swiper-img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/img/swiper-img.jpg" alt="swiper-img" class="swiper-img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/img/swiper-img.jpg" alt="swiper-img" class="swiper-img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/img/swiper-img.jpg" alt="swiper-img" class="swiper-img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/img/swiper-img.jpg" alt="swiper-img" class="swiper-img">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/img/swiper-img.jpg" alt="swiper-img" class="swiper-img">
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRICE -->
+        <section class="price">
+            <div class="wrapper price__wrapper">
+                <h2 class="subheading price__heading">Цены</h2>
+                <div class="price-table price__table">
+                    <div class="price-table__header">
+                        <div class="price-table__row">
+                            <div class="price-table__header-cell price-table__header-cell--even">
+                                <span class="price-table__player">Игроки</span>
+                                <span class="price-table__time">Время</span>
+                            </div>
+                            <div class="price-table__header-cell">30 минут</div>
+                            <div class="price-table__header-cell">60 минут</div>
+                            <div class="price-table__header-cell">Продление 15 мин</div>
+                        </div>
+                    </div>
+                    <div class="price-table__body">
+                        <div class="price-table__row">
+                            <div class="price__body-cell hvr-shrink">1 игрок</div>
+                            <div class="price__body-cell hvr-shrink">500 руб</div>
+                            <div class="price__body-cell hvr-shrink">900 руб</div>
+                            <div class="price__body-cell hvr-shrink">150 руб</div>
+                        </div>
+                        <div class="price-table__row">
+                            <div class="price__body-cell hvr-shrink">2 игрок</div>
+                            <div class="price__body-cell hvr-shrink">900 руб</div>
+                            <div class="price__body-cell hvr-shrink">1600 руб</div>
+                            <div class="price__body-cell hvr-shrink">250 руб</div>
+                        </div>
+                        <div class="price-table__row">
+                            <div class="price__body-cell hvr-shrink">3 игрока</div>
+                            <div class="price__body-cell hvr-shrink">1200 руб</div>
+                            <div class="price__body-cell hvr-shrink">2300 руб</div>
+                            <div class="price__body-cell hvr-shrink">350 руб</div>
+                        </div>
+                        <div class="price-table__row">
+                            <div class="price__body-cell hvr-shrink">4 игрока</div>
+                            <div class="price__body-cell hvr-shrink">1400 руб</div>
+                            <div class="price__body-cell hvr-shrink">2600 руб</div>
+                            <div class="price__body-cell hvr-shrink">500 руб</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="price__link">Забронировать</a>
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+        <section class="gallery">
+
+            <div class="wrapper gallery__wrapper">
+                <h2 class="subheading price__heading">галерея</h2>
+                <div class="gallery__content">
+                    <img src="./assets/img/gallery-bg.jpg" alt="" class="gallery__img">
+
+                    <div class="swiper swiper1">
+
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+
+                                <div class="gallery__card">
+                                    <div class="gallery__card-content">
+                                        <p class="gallery__card-text">В нашем клубе найдутся игры для всех возрастов!
+                                        </p>
+                                        <p class="gallery__card-text">Для детей от 12 лет есть увлекательное развивающие
+                                            игры, проводя время
+                                            в которых можно зарядиться настроем и даже узнать что-то новое.</p>
+                                        <p class="gallery__card-text">Приходите с детьми и разделите с ними веселье</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="gallery__card">
+                                    <div class="gallery__card-content">
+                                        <p class="gallery__card-text">В нашем клубе найдутся игры для всех возрастов!
+                                        </p>
+                                        <p class="gallery__card-text">Для детей от 12 лет есть увлекательное развивающие
+                                            игры, проводя время
+                                            в которых можно зарядиться настроем и даже узнать что-то новое.</p>
+                                        <p class="gallery__card-text">Приходите с детьми и разделите с ними веселье</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="gallery__card">
+                                    <div class="gallery__card-content">
+                                        <p class="gallery__card-text">В нашем клубе найдутся игры для всех возрастов!
+                                        </p>
+                                        <p class="gallery__card-text">Для детей от 12 лет есть увлекательное развивающие
+                                            игры, проводя время
+                                            в которых можно зарядиться настроем и даже узнать что-то новое.</p>
+                                        <p class="gallery__card-text">Приходите с детьми и разделите с ними веселье</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="swiper__menu">
+
+                            <div class="swiper-button-prev1"></div>
+
+                            <div class="swiper-pagination swiper-pagination1"></div>
+
+                            <div class="swiper-button-next1"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACTS -->
+        <section class="contacts">
+
+            <div class="wrapper contacts__wrapper">
+                <div class="contacts__content">
+                    <h2 class="subheading">Контакты</h2>
+                    <h3 class="contacts__heading">Адрес</h3>
+                    <p class="contacts__address">Москва, метро Виртуальная, ул. Реальность, 3-1</p>
+                    <h3 class="contacts__heading">Телефон</h3>
+                    <a href="#" class="tel-link">+7 (925) 880-15-12</a>
+                    <h3 class="contacts__heading">Социальные сети</h3>
+                    <div class="socials contacts__socials">
+                        <a href="#" class="social__link">
+                            <span class="vk-icon">
+                                <svg width="30" height="18">
+                                    <use xlink:href="./assets/icons/vk.svg#vk-icon"></use>
+                                </svg>
+                            </span>
+                        </a>
+                        <a href="#" class="social__link">
+                            <span class="facebook-icon">
+                                <svg width="15" height="26">
+                                    <use xlink:href="./assets/icons/facebook.svg#facebook-icon"> </use>
+                                </svg>
+                            </span>
+                        </a>
+                        <a href="#" class="social__link">
+                            <span class="youtube-icon">
+                                <svg width="30" height="23">
+                                    <use xlink:href="./assets/icons/youtube.svg#youtube-icon"></use>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <iframe class="map"
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A1555a2fb95fe058c1974abca65ad6bc8b636665636da341c469dd3a9b800f9d9&amp;source=constructor"
+                    width="100%" height="400" frameborder="0"></iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="wrapper footer__wrapper">
+
+            <a href="#" class="logo-link footer__logo-link">
+                <img src="./assets/img/logo.png" alt="logo" class="logo-link__logo">
+            </a>
+
+            <nav class="nav header__nav">
+                <a href="#" class="nav__link">О клубе</a>
+                <a href="#" class="nav__link">Залы</a>
+                <a href="#" class="nav__link">Игры</a>
+                <a href="#" class="nav__link">Цены</a>
+                <a href="#" class="nav__link">Контакты</a>
+            </nav>
+
+            <div class="footer__copyrights">
+                <a href="#" class="footer__copyrights-link">Политика конфиденциальности</a>
+                <a href="#" class="footer__copyrights-link">Обработка персональных данных</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./scripts/swiper.js"></script>
+
+</body>
+
+</html>
